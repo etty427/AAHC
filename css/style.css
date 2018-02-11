@@ -354,7 +354,7 @@ margin-top: 5px;
 }
 
 #portfolio #portfolio-flters li:hover, #portfolio #portfolio-flters li.filter-active {
-  background: #E43C5C;
+  background: #3ca2e4;
   color: #fff;
 }
 
@@ -538,7 +538,7 @@ margin-top: 5px;
 {
     background: url('/images/allabouthomecare.png');
     background-size: cover;
-    min-height: 500px;
+    min-height: 230px;
 }
 .cta2 .btn-default,.cta2 .btn-default:hover,.cta2 .btn-default:focus
 {
