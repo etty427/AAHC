@@ -12,16 +12,16 @@
 <script src='//www.google.com/recaptcha/api.js'></script>
 <link href="//maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap.min.css" rel="stylesheet" />
 <link href="//maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap-theme.min.css" rel="stylesheet" />
-<script language="JavaScript" type="text/javascript" src="assets/js/jquery-1.11.1.min.js"></script>
-<script language="JavaScript" type="text/javascript" src="assets/js/jquery.validate.min.js"></script>
+<script language="JavaScript" type="text/javascript" src="js/jquery-1.11.1.min.js"></script>
+<script language="JavaScript" type="text/javascript" src="js/jquery.validate.min.js"></script>
 <script type="text/javascript" src="//cdn.jsdelivr.net/momentjs/latest/moment.min.js"></script>
 <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/bootstrap/3/css/bootstrap.css" />
 <script type="text/javascript" src="//cdn.jsdelivr.net/bootstrap.daterangepicker/2/daterangepicker.js"></script>
 <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/bootstrap.daterangepicker/2/daterangepicker.css" />
-<link rel="stylesheet" href="assets/css/html5reset.css" media="all">
-<link rel="stylesheet" href="assets/css/col.css" media="all">
-<link rel="stylesheet" href="assets/css/1cols.css" media="all">
-<link rel="stylesheet" href="assets/css/2cols.css" media="all">
+<link rel="stylesheet" href="css/html5reset.css" media="all">
+<link rel="stylesheet" href="css/col.css" media="all">
+<link rel="stylesheet" href="css/1cols.css" media="all">
+<link rel="stylesheet" href="css/2cols.css" media="all">
 <!-- jQuery Form Validation code -->
 <script type="text/javascript" language="JavaScript">
 <!--
@@ -170,7 +170,7 @@ $("#frmFormMail").validate({
             },
 			submitHandler: function(form) // CALLED ON SUCCESSFUL VALIDATION
                 {
-                window.location.replace='assets/redirect.html'; // Add your custom form submitted redirect page full path here the forward slash / will redirect to your home page
+                window.location.replace='redirect.html'; // Add your custom form submitted redirect page full path here the forward slash / will redirect to your home page
 			}
         },
    });
@@ -289,7 +289,7 @@ input:-webkit-autofill:focus {
   <div class="form-container">
     <div class="header">JOB APPLICATION FORM</div>
     <div>&nbsp;</div>
-    <form name="frmFormMail" id="frmFormMail" action='assets/jobformmail.php' method='post' enctype='multipart/form-data' autocomplete="on">
+    <form name="frmFormMail" id="frmFormMail" action='jobformmail.php' method='post' enctype='multipart/form-data' autocomplete="on">
       <input type='hidden' name='formmail_submit' value='Y'>
       <input type='hidden' name='mod' value='ajax'>
       <input type='hidden' name='func' value='submit'>
@@ -507,7 +507,7 @@ input:-webkit-autofill:focus {
             <div class="inputGroupContainer">
               <!-- For blue button change btn-default to btn-primary - You can remove button width:100%; to standard size -->
               <input type="submit" name="submit" value="Submit" id="btn" class="btn btn-primary btn-lg">
-		      <div id="divMsg" style="display:none;"><img src="assets/img/loading-bar.gif" alt="Please wait.." width="160" /></div>
+		      <div id="divMsg" style="display:none;"><img src="img/loading-bar.gif" alt="Please wait.." width="160" /></div>
             </div>
           </div>
         </div>
