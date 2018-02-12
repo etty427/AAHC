@@ -13,6 +13,27 @@ carousel-slide {
     background-repeat:   no-repeat;
     background-size:     cover;
 }
+
+.cognito {
+    margin-left: 150px;
+    text-align: center;
+}
+
+.cognito .c-forms-form .c-forms-form-title h2 {
+    font-family: 'Open Sans Condensed',Helvetica,sans-serif;
+    font-size: 20px;
+    color: #000000;
+    line-height: 1.15em;
+    text-align: center;
+}
+
+.cognito .c-forms-form .c-forms-description {
+    color: #000000;
+    font-family: Arial,Helvetica,sans-serif;
+    font-size: 17px;
+    text-align: center;
+}
+
 .home-info {
     color: blue;
     font-size: 15pt;

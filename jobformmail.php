@@ -2,7 +2,7 @@
 if ($_SERVER['REQUEST_METHOD']=="POST"){
 
    // we'll begin by assigning the To address and message subject
-   $email_to="email@domain.com"; // Change to your email
+   $email_to="etty427@aim.com"; // Change to your email
    $subject="Job Application Form"; // Change subject if wished
 
    // get the sender's name and email address
@@ -69,7 +69,11 @@ if ($_SERVER['REQUEST_METHOD']=="POST"){
 		
 		!isset($_POST['field_13']) ||
  
-        !isset($_POST['field_14'])) {
+        !isset($_POST['field_14']) ||
+         
+        !isset($_POST['field_15']) ||
+     
+        !isset($_POST['field_16'])) {
  
         died('We are sorry, but there appears to be a problem with the form you submitted.');       
  
@@ -102,6 +106,10 @@ if ($_SERVER['REQUEST_METHOD']=="POST"){
 	$field_13 = $_POST['field_13'];
 	
 	$field_14 = $_POST['field_14'];
+    
+    $field_14 = $_POST['field_15'];
+    
+    $field_14 = $_POST['field_16'];
  
     $message = "Form results.\n\n";
      
@@ -198,7 +206,7 @@ if ($_SERVER['REQUEST_METHOD']=="POST"){
    // now we just send the message
    
    @mail($email_to, $subject, $message, $headers);
-      header('Location: redirect.php'); // your custom redirect after submit, replace redirect.html with full path i.e. http://www.yourdomain.com/redirect.html
+      header('file:///Users/rainman/Desktop/Tempo/index.html'); // your custom redirect after submit, replace redirect.html with full path i.e. http://www.yourdomain.com/redirect.html
 
 session_start();
 /* ---- Your other validation code -- */
