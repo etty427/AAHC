@@ -33,6 +33,10 @@ carousel-slide {
     font-size: 17px;
     text-align: center;
 }
+.pgraph {
+    text-align: justify;
+    font-size: 20px;
+}
 
 .home-info {
     color: blue;
@@ -675,6 +679,7 @@ p.cta-sub-title {
     line-height: 40px;
     width: 150px;
 }
+
 .jumbotron
 {
     padding: 90px 0px 0px 20px !important;
