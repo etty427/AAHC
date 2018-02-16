@@ -39,7 +39,7 @@ carousel-slide {
 }
 
 .home-info {
-    color: blue;
+    color: black;
     font-size: 15pt;
 }
 /**************************************
@@ -133,7 +133,7 @@ Header
     color: #fff;
     text-transform: uppercase;
     font-weight: 400;
-    color: blue;
+    color: lightblue;
     -webkit-filter: drop-shadow(0 1px 1px rgba(0, 0, 0, 0.4));
     -moz-filter: drop-shadow(0 1px 1px rgba(0, 0, 0, 0.4));
     -ms-filter: drop-shadow(0 1px 1px rgba(0, 0, 0, 0.4));
@@ -162,7 +162,7 @@ a.btn-banner:hover, a.btn-banner:focus
 {
     background-color: #0078FF;
     color: #fff;
-    border-color: #030dff;
+    border-color: lightblue;
     display: inline-block;
 }
 .bold
@@ -187,7 +187,7 @@ a.btn-banner:hover, a.btn-banner:focus
     letter-spacing: 6px;
     text-transform: uppercase;
     font-weight: 400;
-    color: blue;
+    color: lightblue;
     -webkit-filter: drop-shadow(0 1px 1px rgba(0, 0, 0, 0.4));
     -moz-filter: drop-shadow(0 1px 1px rgba(0, 0, 0, 0.4));
     -ms-filter: drop-shadow(0 1px 1px rgba(0, 0, 0, 0.4));
@@ -215,7 +215,7 @@ a.btn-banner:hover, a.btn-banner:focus
 }
 .cta-1, .cta2
 {
-	background-color: #0078FF;
+	background-color: rgb(0, 159, 243);
 	padding: 40px 0px;
 }
 p.cta-sub-title
@@ -521,7 +521,7 @@ margin-top: 5px;
     background-color: white;
 }
 .footer h3 {
-    color: blue;
+    color: black;
     padding-bottom: 30px;
 }
 .footer_social ul {
@@ -552,12 +552,12 @@ margin-top: 5px;
     padding: 20px 0;
 }
 .footer_copyright {
-    color: blue;
+    color: black;
     font-size: 16px;
     margin-bottom: 0;
 }
 .footer_copyright a {
-    color: #e43c5c;
+    color: orangered;
 }
 #banner
 {
