@@ -130,7 +130,7 @@ Header
 .jumbotron
 {
     background-color: transparent;
-    /* padding-top: 90px; */
+    padding-top: 90px; 
 }
 .jumbotron p.big
 {
