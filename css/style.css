@@ -4,6 +4,12 @@
     Author: BootstrapMade.com
     Author URL: https://bootstrapmade.com
 */
+.myFont {
+    font-size: 16px;
+}
+avs {
+    padding-top: 10px;
+}
 carousel-slide {
     position: relative;
     float: left;
@@ -54,6 +60,7 @@ carousel-slide {
 .home-info {
     color: black;
     font-size: 15pt;
+    line-height: 1;
 }
 /**************************************
 link & button
