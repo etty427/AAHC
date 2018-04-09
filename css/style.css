@@ -7,8 +7,8 @@
 .myFont {
     font-size: 16px;
 }
-avs {
-    padding-top: 10px;
+.about-new {
+    line-height: 1;
 }
 carousel-slide {
     position: relative;
@@ -20,6 +20,10 @@ carousel-slide {
     background-size:     cover;
 }
 
+#myCarousel.carousel.slide {
+	padding-top: 14px;
+    box-shadow: 0px 7px 18px 4px #337ab7;
+}
 #carousel .carousel-container {
     padding: 0;
 }
@@ -68,14 +72,24 @@ link & button
 .white
 {
 	color:#fff !important;
+	
 }
 h1.cta-title
 {
 	font-size: 43px;
+    text-shadow: 0px 0px 16px #17262d;
 }
 h1
 {
 	font-size: 36px;
+}
+
+h1.headers
+{
+	color: #337ab7;
+}
+#header {
+	padding-top: 20px;
 }
 /**************************************
 Header
@@ -90,8 +104,9 @@ Header
 }
 .navbar-default {
     background-color: #fff;
-    border-color: rgba(231, 231, 231, 0.33);
+    border-color: #337ab7;
     padding: 20px 0px;
+    box-shadow: 0px 6px 8px lightblue;
 }
 
 .navbar-default .navbar-nav > .active > a, .navbar-default .navbar-nav > .active > a:focus, .navbar-default .navbar-nav > .active > a:hover {
@@ -126,7 +141,7 @@ Header
 }
 
 .navbar-default .navbar-nav > li > a {
-	color: #354242;
+	color: #337ab7;
 	font-weight: 600;
 	text-transform: uppercase;
 	margin: 0px 10px;
@@ -159,6 +174,10 @@ Header
     -ms-filter: drop-shadow(0 1px 1px rgba(0, 0, 0, 0.4));
     filter: drop-shadow(0 1px 1px rgba(0, 0, 0, 0.4));
     padding-top: 10px;
+}
+
+.list_groupItem {
+	border: 6px solid #019ff3
 }
 a.btn-banner {
     border: 1px solid #cdcdcd;
@@ -236,11 +255,13 @@ a.btn-banner:hover, a.btn-banner:focus
 .cta-1, .cta2
 {
 	background-color: rgb(0, 159, 243);
-	padding: 40px 0px;
+	padding: 18px 0px;
+    box-shadow: 0px 2px 7px;
 }
 p.cta-sub-title
 {
 	font-size: 28px;
+    text-shadow: 0px 0px 16px #17262d;
 }
 .pg-titl-bdr-btm
 {
